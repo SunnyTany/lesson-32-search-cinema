@@ -16,7 +16,7 @@ html {
 body {
   min-height: 100vh;
 
-  background-image: url(../assets/images/main-bg.jpg);
+  background-image: url(../images/main-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
