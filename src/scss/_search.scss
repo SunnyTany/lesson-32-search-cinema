@@ -1,0 +1,45 @@
+.search {
+  margin-bottom: 2rem;
+
+  &__group {
+
+    &--input {
+      margin-bottom: 0.4375rem;
+    }
+
+    &--checkbox {
+      display: flex;
+      gap: 0.3125rem;
+      align-items: center;
+    }
+  }
+
+  &__label-input {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  &__input {
+    display: block;
+    max-width: 25rem;
+    width: 100%;
+    padding: 0.625rem 0.9375rem;
+    margin-bottom: 0.625rem;
+    border-radius: 0.25rem;
+    border: 0.0625rem solid lighsteelblue;
+  }
+
+  &__label-checkbox {
+    font-size: 0.8rem;
+    user-select: none;
+    padding: 0.8rem 0.3rem;
+  }
+
+  &__error-search {
+    color: rgb(80, 17, 17);
+    font-size: 2rem;
+    border: 0.0625rem solid rgb(80, 17, 17);
+    text-align: center;
+    padding: 3rem;
+  }
+}

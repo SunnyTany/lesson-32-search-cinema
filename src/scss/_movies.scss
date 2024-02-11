@@ -1,0 +1,36 @@
+.movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(12.5rem, 1fr));
+  gap: 1.2rem;
+  margin-bottom: 3rem;
+
+
+  &__movie {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  &__image {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__title {
+    color: $darkblue-color;
+    margin-bottom: 1.5rem;
+  }
+
+  &__year {
+    font-size: 1.4rem;
+  }
+}
